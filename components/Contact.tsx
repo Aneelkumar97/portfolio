@@ -134,7 +134,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">💼</span>
-                  <span>Currently at Swiggy</span>
+                  <span>Currently at DAZN (dä-zōn)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">⏰</span>

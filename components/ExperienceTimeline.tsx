@@ -17,10 +17,24 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    id: 1,
+    id: 5,
+    company: 'Dazn',
+    position: 'Senior Systems Analyst',
+    duration: 'Feb 2026 - Present',
+    location: 'Hyderabad, India',
+    type: 'full-time',
+    description: 'Building a fast-evolving global sports streaming platform',
+    achievements: [
+      'Led the design and development of responsive, high-performance frontend features using React, TypeScript, and MobX, improving load times and maintainability.',
+      'Integrated Contentful CMS to enable dynamic content management and localization across multiple markets.'
+    ],
+    technologies: ['React.js', 'Redux', 'TypeScript', 'Mobx']
+  },
+  {
+    id: 4,
     company: 'Swiggy',
     position: 'Senior Software Engineer (SDE - II)',
-    duration: 'Dec 2024 - Present',
+    duration: 'Dec 2024 - Feb 2026',
     location: 'Bangalore, India',
     type: 'full-time',
     description: 'Leading high-impact UI development and serving as primary on-call engineer, ensuring 99.9%+ availability SLAs while architecting scalable frontend solutions.',
@@ -34,7 +48,7 @@ const experiences: Experience[] = [
     technologies: ['React.js', 'Redux', 'TypeScript', 'Cypress', 'Jest', 'AWS', 'Docker', 'PromQL', 'HAProxy']
   },
   {
-    id: 2,
+    id: 3,
     company: 'Recro (Client - Swiggy)',
     position: 'Senior Software Engineer',
     duration: 'Aug 2021 - Dec 2024',
@@ -51,7 +65,7 @@ const experiences: Experience[] = [
     technologies: ['React.js', 'Node.js', 'Express.js', 'TypeScript', 'AWS', 'Docker', 'Logman', 'HAProxy']
   },
   {
-    id: 3,
+    id: 2,
     company: 'Technovert Solutions (Clients - Railpros, ADP)',
     position: 'Software Engineer - M365',
     duration: 'Jan 2021 - Aug 2021',
@@ -68,7 +82,7 @@ const experiences: Experience[] = [
     technologies: ['React.js', 'SharePoint Framework', 'TypeScript', 'Microsoft 365', 'Azure DevOps']
   },
   {
-    id: 4,
+    id: 1,
     company: 'Technovert Solutions (Product - Saketa Intranet Suite)',
     position: 'Junior Software Engineer',
     duration: 'May 2018 - Jan 2021',

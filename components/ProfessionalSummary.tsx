@@ -90,14 +90,14 @@ export default function ProfessionalSummary() {
           </h2>
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 dark:text-gray-300">
             <p>
-              Hi! I'm <span className="font-bold text-purple-600 dark:text-purple-400">Aneel Kumar</span>, a Senior Software Engineer (SDE-II) at Swiggy with over 7 years of experience crafting exceptional web experiences.
+              Hi! I'm <span className="font-bold text-purple-600 dark:text-purple-400">Aneel Kumar</span>, a Senior Systems Analyst at DAZN (dä-zōn) with over 7+ years of experience crafting exceptional web experiences.
             </p>
             <p>
-              I specialize in building scalable, performant React applications that delight users and drive business value. Currently, I'm delivering high-impact UI features at Swiggy, where I improved CSAT by 22% and maintain 99.9%+ availability as the primary on-call engineer.
+              I specialize in building scalable, performant React applications that delight users and drive business value. Currently, I'm delivering high-impact multi-market sign-up and sign-in journeys, ensuring a seamless experience across web platforms at DAZN.
             </p>
-            <p>
+            {/* <p>
               From architecting modular frontend components that enabled 40% faster feature delivery to optimizing CI/CD pipelines reducing production defects by 35%, I've worked across the full spectrum of frontend and full-stack development. I'm equally comfortable building performance-optimized web apps as I am mentoring junior engineers and championing best practices.
-            </p>
+            </p> */}
           </div>
         </div>
 

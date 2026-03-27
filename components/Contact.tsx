@@ -18,10 +18,10 @@ export default function Contact() {
     await new Promise(resolve => setTimeout(resolve, 1500));
     
     setStatus('sent');
+    setFormData({ name: '', email: '', message: '' });
     setTimeout(() => {
       setStatus('idle');
-      setFormData({ name: '', email: '', message: '' });
-    }, 3000);
+    }, 1500);
   };
 
   const socialLinks = [
@@ -115,6 +115,7 @@ export default function Contact() {
                   <a
                     key={link.name}
                     href={link.url}
+                    target={"_blank"}
                     className={`flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg transition-all hover:scale-105 hover:shadow-md ${link.color}`}
                   >
                     <span className="text-3xl">{link.icon}</span>

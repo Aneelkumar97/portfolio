@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { AppProvider } from "@/contexts/AppContext";
 import ConditionalNavigation from "@/components/ConditionalNavigation";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,6 +57,7 @@ export default function RootLayout({
             {children}
           </AppProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
